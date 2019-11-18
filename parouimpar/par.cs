@@ -8,7 +8,7 @@ namespace parouimpar
 {
     class par
     {
-        private double valor;
+        private Double valor;
 
         public string recebe
         {
