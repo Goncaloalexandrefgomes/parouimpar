@@ -23,7 +23,8 @@ namespace parouimpar
         {
             get
             {
-                return "";
+                if (valor%2 == 0) return "O numero "+ valor +" é Par";
+                else return "O numero " + valor + " é Impar";
             }
         }
     }
