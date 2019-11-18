@@ -8,13 +8,13 @@ namespace parouimpar
 {
     class par
     {
-        private int valor;
+        private double valor;
 
         public string recebe
         {
             set
             {
-                valor = Convert.ToInt32(value);
+                valor = Convert.ToDouble(value);
             }
         }
 
