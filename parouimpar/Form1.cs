@@ -17,9 +17,16 @@ namespace parouimpar
             InitializeComponent();
         }
 
+        par fait = new par(); 
         private void Button1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            fait.recebe = textBox1.Text;
+            label1.Text = fait.envia;
         }
     }
 }

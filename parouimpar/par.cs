@@ -23,7 +23,7 @@ namespace parouimpar
         {
             get
             {
-                valor = Convert.ToInt32(value);
+                return "";
             }
         }
     }
